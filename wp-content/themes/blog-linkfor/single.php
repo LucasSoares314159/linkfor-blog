@@ -8,7 +8,19 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Jéssica Soares</title>
+
+  <title>
+    <?php
+    if ( is_home()||is_page()||is_category() ){ 
+      ?><?php bloginfo('description') ?> | <?php bloginfo('name'); ?><?php 
+    }
+
+    else { ?>
+      <?php wp_title(' '); ?> - <?php bloginfo('name'); ?><?php }
+    ?>
+
+  </title>
+
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -17,80 +29,11 @@
 
   <!-- Custom styles for this template -->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/style.css">
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/style.css">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
   
   <!-- Cabeçalho Wordpress -->
   <?php wp_head(); ?>
-
-  <style type="text/css">
-    .text-header-1{
-
-      font-size: 3em;
-    }
-
-    p{
-      font-size: 1.2em;
-      font-family: 'Lato', sans-serif!important;
-      color: #424242;
-      line-height: 1.5em;
-    }
-
-    h1,h2,h3{
-      font-family: 'Lato', sans-serif;  
-    }
-    .text-header-2{
-      font-size: 1.2em;
-      font-weight: lighter;
-      font-style: italic;
-      line-height: 50px;
-    }
-
-    .btn-pers{
-
-      width: 168px;
-      height: 38px;
-      background-color: #2F4A79;
-      border-radius: 0px;
-      color: white;
-    }
-
-    .btn-pers-2{
-
-      width: 168px;
-      height: 38px;
-      background-color: #60C4E8;
-      border-radius: 0px;
-      color: white;
-    }
-
-    .btn-pers-3{
-
-      width: 168px;
-      height: 38px;
-      background-color: white;
-      border-radius: 0px;
-      color: #60C4E8;
-    }
-
-    .transforme-seu-negocio{
-      padding-top: 100px;
-    }
-
-    .cards{
-
-      padding: 50px;
-      background: #FFFFFF;
-      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
-    }
-
-    .blog-pagination{
-
-     color: white;
-
-   }
- </style>
-
 
 </head>
 
@@ -142,24 +85,10 @@
          <div class="col-md-8 col-sm-12 text-left">
 
           <?php if(have_posts()) : while (have_posts()) : the_post(); ?>
-           <!-- Imagem do post -->
-           <a href="<?php the_permalink(); ?>">
-             <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid')); ?>  
-           </a>
 
-
-
-           <p style="font-family: 'Montserrat', sans-serif; color: white;">
+           <p style="font-family: 'Lato, sans-serif; color: white;">
              <?php the_content(); ?>
            </p>
-
-           <div class="col-4">
-            <p style="color: #2F4A79; font-weight: bolder; font-size: 18px;">Publicado em: <?php echo get_the_date('d/m/y'); ?></p>
-          </div>
-
-          <hr>  
-
-          <?php comments_template(); ?>
 
         </div>
       </center>
@@ -175,8 +104,6 @@
 <!-- Footer -->
 <?php get_footer(); ?>
 
-
-<?php wp_footer(); ?>
 <!-- Bootstrap core JavaScript -->
 <script src="<?php bloginfo('template_url');?> /vendor/jquery/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url');?> /vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

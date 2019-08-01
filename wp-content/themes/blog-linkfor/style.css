@@ -6,3 +6,155 @@ Author URI: https://www.linkfor.com.br
 Description: Tema para blog da linkfor utilizando o wordpress
 Version: 1.0
 */
+
+/* Header */
+
+.text-header-1{
+
+	font-size: 3em;
+}
+
+.text-header-2{
+	font-size: 1.2em;
+	font-weight: lighter;
+	font-style: italic;
+	line-height: 50px;
+}
+
+p{
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif!important;
+	color: #424242;
+	line-height: 1.5em;
+}
+
+h1,h2,h3{
+	font-family: 'Lato', sans-serif;  
+}
+
+
+/* Botões */
+.btn-pers{
+
+	width: 168px;
+	height: 38px;
+	background-color: #2F4A79;
+	border-radius: 0px;
+	color: white;
+}
+
+.btn-pers-2{
+
+	width: 168px;
+	height: 38px;
+	background-color: #60C4E8;
+	border-radius: 0px;
+	color: white;
+}
+
+.btn-pers-3{
+
+	width: 168px;
+	height: 38px;
+	background-color: white;
+	border-radius: 0px;
+	color: #60C4E8;
+}
+
+.btn-article{
+	font-size: 14px;
+	border: 0.5px solid;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	align-content: left;
+	position: absolute;
+	bottom: 50;
+	right: 35;
+}
+
+.btn-contrate{
+	background-color: #22640E;
+	border: none;
+}
+
+.btn-article:hover {
+	background-color: #22640E; /* Green */
+	color: white!important;
+}
+
+/* Blog Interface */
+.miniatura-post{
+	max-height: 380px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 8px 8px rgba(226, 226, 226, 0.25);
+	border-radius: 10px;
+	margin-top: 50px;
+	padding: 0px!important;
+
+}
+
+.content-post-thumb{
+	padding: 35px 35px 0px 35px!important;
+}
+
+div.content-post-thumb a{
+	color: #424242!important;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
+
+.blog-pagination{
+
+	color: #2F4A79;
+	width: 200px;
+	float: right;
+	font-weight: bolder;
+}
+
+
+#wrapper-index{
+	align-items: center!important;
+}
+
+
+/*Footer*/
+
+#footer{
+	padding-top: 40px;
+}
+.text-footer{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.descricao-footer{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.links-{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+div.footer-column a{
+
+	font-size: 14px;
+	line-height: 30px;
+}

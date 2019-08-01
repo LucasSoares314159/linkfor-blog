@@ -1,0 +1,106 @@
+/*
+Theme Name: Blog Linkfor
+Theme URI: https://linkfor.com.br
+Author: Lucas Soares
+Author URI: https://www.linkfor.com.br
+Description: Tema para blog da linkfor utilizando o wordpress
+Version: 1.0
+*/
+
+.text-header-1{
+
+	font-size: 3em;
+}
+
+.text-header-2{
+	font-size: 1.2em;
+	font-weight: lighter;
+	font-style: italic;
+	line-height: 50px;
+}
+
+.btn-pers{
+
+	width: 168px;
+	height: 38px;
+	background-color: #2F4A79;
+	border-radius: 0px;
+	color: white;
+}
+
+.btn-pers-2{
+
+	width: 168px;
+	height: 38px;
+	background-color: #60C4E8;
+	border-radius: 0px;
+	color: white;
+}
+
+.btn-pers-3{
+
+	width: 168px;
+	height: 38px;
+	background-color: white;
+	border-radius: 0px;
+	color: #60C4E8;
+}
+
+.transforme-seu-negocio{
+	padding-top: 100px;
+}
+
+.cards{
+
+	padding: 50px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.blog-pagination{
+
+	color: #2F4A79;
+	width: 200px;
+	float: right;
+	font-weight: bolder;
+}
+
+
+.miniatura-post{
+
+	width: 400px;
+	height: 400px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 10px rgba(157, 157, 157, 0.25);
+	border-radius: 10px;
+	padding: 35px;
+	margin-top: 60px;
+
+
+}
+
+.btn-article{
+	font-size: 12px;
+	border: 1px solid;
+	border-radius: 25px;
+	padding: 3px 10px 3px 10px;
+	float: right;
+}
+
+.btn-article:hover {
+	background-color: #22640E; /* Green */
+	color: white;
+}
+
+.content_right, .content_left{
+	float: left;
+	width: 45%;
+}
+.content_left{
+	padding-right: 5%;
+}
+
+#wrapper-index{
+
+	margin: 5%!important;
+}

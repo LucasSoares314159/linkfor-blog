@@ -91,4 +91,7 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Configura as variáveis e arquivos do WordPress. */
+define( 'UPLOADS', 'wp-content/uploads' );
 require_once(ABSPATH . 'wp-settings.php');
+
+

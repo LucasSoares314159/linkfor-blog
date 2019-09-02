@@ -86,34 +86,31 @@
 <body id="page-top">
 
  <!-- Navigation -->
- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="padding-top: 30px; background-color: #60C4E8;">
-  <div class="container">
-    <a href="../"><img src="<?php bloginfo('template_url');?>/img/logojess.png" width="300" height="61"></a>
-      <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>-->
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../#sobre">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../consultoria/">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../blog/">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../#contact">Contato</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="padding-top: 30px; background: linear-gradient(90deg, #22640E 0%, #1B254B 65.63%);">
+      <div class="container">
+        <a href="../"><img src="<?php bloginfo('template_url');?>/img/logo.png" width="150" height="49"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../http://blog.linkfor.com.br/"  style="color: white!important; font-family: 'Lato', sans-serif;">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../https://linkfor.com.br/faq.html"  style="color: white!important; font-family: 'Lato', sans-serif;">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../https://linkfor.com.br/como-funciona.html"  style="color: white!important; font-family: 'Lato', sans-serif;">Como funciona?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../https://linkfor.com.br/contato.html"  style="color: white!important; background-color: #22640E; font-family: 'Lato', sans-serif;">Contrate um time</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
   <!-- Página Padrão -->
   <div class="blog" style="padding: 80px 0 80px 0px;">
